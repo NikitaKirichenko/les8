@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+.header, .introduce {
+    background-color: #F4F5F7;
+    width: 100%;
+}
+
+.box {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.header-order {
+    font-family: helvetica neue;
+    font-size: 18px;
+    font-weight: 900;
+    color: #95989a;
+}
+
+.header-social-links {
+    margin-right: 10px;
+    justify-self: flex-end;
+}
+
+.header-social-links:nth-of-type(3) {
+    margin-right:0px;
+}
+
+
+
