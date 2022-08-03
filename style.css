@@ -7,7 +7,8 @@
     /* Попробуй закинуть в боди цвета всех элементов */
 }
 
-.header, .introduce {
+.header,
+.introduce {
     background-color: #F4F5F7;
     width: 100%;
 }
@@ -21,7 +22,10 @@
     padding-top: 78px;
 }
 
-.head, .intro, .button-box, .mid {
+.head,
+.intro,
+.button-box,
+.mid {
     display: flex;
     justify-content: space-between;
 }
@@ -107,4 +111,11 @@
 
 .mid {
     margin-top: 102px;
+}
+
+.info {
+    font-size: 16px;
+    color: #525f7f;
+    width: 253px;
+    margin-top: 39px;
 }
