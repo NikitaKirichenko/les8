@@ -8,7 +8,8 @@
 }
 
 .header,
-.introduce {
+.introduce,
+.last {
     background-color: #F4F5F7;
     width: 100%;
 }
@@ -32,6 +33,7 @@
 
 .box {
     width: 60%;
+    /* ебануть отступ макс ширриной в 1140 пикс */
     margin: auto;
 }
 
@@ -107,6 +109,7 @@
 .middle {
     width: 100%;
     margin-top: 92px;
+    padding-bottom: 170px;
 }
 
 .mid {
@@ -116,6 +119,45 @@
 .info {
     font-size: 16px;
     color: #525f7f;
-    width: 253px;
+    /* width: 240px; */
     margin-top: 39px;
+}
+
+.last {
+    padding-top: 93px;
+    padding-bottom: 112px;
+}
+
+.last-people {
+    margin-top: 67px;
+    display: grid;
+    grid-template-columns: 363px 363px 363px;
+    justify-content: space-between;
+
+}
+
+.people {
+    margin-top: 35px;
+}
+
+.footer {
+    background-color: #32325f;
+    padding-top: 82px;
+    padding-bottom: 119px;
+
+}
+
+.foot-style {
+    color: #ffffff;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.foot-title {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.footer-links {
+    font-size: 16px;
 }
